@@ -26,42 +26,88 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudents() {
     try{
-for(i=0;i<n;i++)
+for(i=0;i<length;i++)
 {
-		if(student[i].length()==null)
+		if(student[i].length()==null){
 		return null;
+throw{ IllegalArgumentException(exception e)
 }
 }
-   catch(Exception e)
-   {
-      return e;
+    
 }
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
+
+try{
+                  if(index<0||index>=student.length())
+                  {
+throw{ IllegalArgumentException(exception e)}
+}
 		// Add your implementation here
 	}
+}
 
 	@Override
 	public Student getStudent(int index) {
-		// Add your implementation here
+ try{
+for(i=0;i<length;i++)
+{
+		if(student[i].length()==null){
+		return null;
+throw{ IllegalArgumentException(exception e)
+}
+}
+
+                  if(index<0||index>=student.length())
+                  {
+throw{ IllegalArgumentException(exception e)}
+}
+    
+}
+		 
 		return null;
 	}
 
 	@Override
 	public void setStudent(Student student, int index) {
-		// Add your implementation here
+try{
+for(i=0;i<length;i++)
+{
+		if(student[i].length()==null){
+		return null;
+throw{ IllegalArgumentException(exception e)
+}
+}
+
+                  if(index<0||index>=student.length())
+                  {
+throw{ IllegalArgumentException(exception e)}
+}
+    
+}
+		 
+		 
 	}
 
 	@Override
 	public void addFirst(Student student) {
-		// Add your implementation here
+		if(student.length()==isempty())
+{
+    throw{ IllegalArgumentException(exception e)}
+          else
+                 add.student;
+	 
+ }
 	}
 
 	@Override
 	public void addLast(Student student) {
-		// Add your implementation here
+		 if(index<0||student.length())
+{
+  throw {IllegalArgumentException(exception e)}
+ }
 	}
 
 	@Override

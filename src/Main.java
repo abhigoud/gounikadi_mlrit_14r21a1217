@@ -3,9 +3,9 @@ public class Main {
 	public static void main(String[] args) {
            Scanner in=new Scanner(System.in);
        
-              n=in.nextInt();
+              length=in.nextInt();
 String student=new String[n];
-  for(i=0;i<n;i++)
+  for(i=0;i<length;i++)
  {
  student[i].id=in.nextInt();
 student[i]. fullName=in.nextLine();
