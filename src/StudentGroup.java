@@ -25,68 +25,66 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudents() {
-    try{
-for(i=0;i<length;i++)
-{
-		if(student[i].length()==null){
+    
+ 
+		if(student.length()==null){
 		return null;
-throw{ IllegalArgumentException(exception e)
-}
-}
+throw new IllegalArgumentException();
+
+ 
     
 }
-	}
+	
 
 	@Override
 	public void setStudents(Student[] students) {
 
-try{
+
                   if(index<0||index>=student.length())
                   {
-throw{ IllegalArgumentException(exception e)}
+throw new IllegalArgumentException();
 }
 		// Add your implementation here
 	}
-}
+
 
 	@Override
 	public Student getStudent(int index) {
- try{
-for(i=0;i<length;i++)
-{
+  
 		if(student[i].length()==null){
 		return null;
-throw{ IllegalArgumentException(exception e)
-}
+throw new IllegalArgumentException();
+
 }
 
                   if(index<0||index>=student.length())
                   {
-throw{ IllegalArgumentException(exception e)}
+throw new IllegalArgumentException();
 }
     
-}
+ 
 		 
 		return null;
 	}
 
 	@Override
 	public void setStudent(Student student, int index) {
-try{
-for(i=0;i<length;i++)
-{
+ 
 		if(student[i].length()==null){
-		return null;
-throw{ IllegalArgumentException(exception e)
-}
-}
+throw new IllegalArgumentException();}
+		
+ 
+
+
 
                   if(index<0||index>=student.length())
                   {
-throw{ IllegalArgumentException(exception e)}
+throw new IllegalArgumentException();
+ 
 }
+return null;
     
-}
+
 		 
 		 
 	}
@@ -95,9 +93,9 @@ throw{ IllegalArgumentException(exception e)}
 	public void addFirst(Student student) {
 		if(student.length()==isempty())
 {
-    throw{ IllegalArgumentException(exception e)}
+    throw new IllegalArgumentException();
           else
-                 add.student;
+                 Student=student;
 	 
  }
 	}
@@ -106,7 +104,7 @@ throw{ IllegalArgumentException(exception e)}
 	public void addLast(Student student) {
 		 if(index<0||student.length())
 {
-  throw {IllegalArgumentException(exception e)}
+   throw new IllegalArgumentException();}
  }
 	}
 
@@ -142,12 +140,14 @@ throw{ IllegalArgumentException(exception e)}
 
 	@Override
 	public void removeToElement(Student student) {
-		// Add your implementation here
+                    bubblesort();
+		 
 	}
 
 	@Override
 	public void bubbleSort() {
-		// Add your implementation here
+		if(date ==null){throw new IllegalArgumentException(); }
+}
 	}
 
 	@Override
